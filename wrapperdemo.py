@@ -24,3 +24,4 @@ def say(something):
 
 say('hello world!')
 say('I am a test!')
+say("submit")

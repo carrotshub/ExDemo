@@ -13,7 +13,7 @@ class info(object):
 	# def get_id():
 	# 	print("here is get your id!")
 
-
+# 类作为装饰器
 @info
 def say(something):
 	print("say {}!".format(something))
@@ -23,7 +23,7 @@ def say(something):
 	# 这里再装饰器情况下返回的是函数名字，但是在该函数所在的函数仅作为悲壮是函数的时候注意一定以函数调用的形式返回
 	return test
 
-
+# 函数作为装饰器
 @say
 def test_timer():
 	for i in range(100):
